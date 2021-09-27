@@ -34,6 +34,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.annotation.ExperimentalCoilApi
+import com.example.podlodkaandroidcrew.PodlodkaAndroidCrewApplication
 import com.example.podlodkaandroidcrew.R
 import com.example.podlodkaandroidcrew.data.model.Session
 import com.example.podlodkaandroidcrew.ui.UiState
@@ -403,16 +404,16 @@ fun SessionSectionPreview() {
     }
 }
 
-//@ExperimentalAnimationApi
-//@ExperimentalCoilApi
-//@ExperimentalFoundationApi
-//@Preview("Home screen")
-//@Preview("Home screen (dark)", uiMode = Configuration.UI_MODE_NIGHT_YES)
-//@Composable
-//fun HomeScreenPreview() {
-//    PodlodkaAndroidCrewTheme {
-//        Surface {
-//            HomeScreen(HomeViewModel(PodlodkaAndroidCrewApplication().repository, navigateToSession = {})
-//        }
-//    }
-//}
+@ExperimentalAnimationApi
+@ExperimentalCoilApi
+@ExperimentalFoundationApi
+@Preview("Home screen")
+@Preview("Home screen (dark)", uiMode = Configuration.UI_MODE_NIGHT_YES)
+@Composable
+fun HomeScreenPreview() {
+    PodlodkaAndroidCrewTheme {
+        Surface {
+            HomeScreen(HomeViewModel(PodlodkaAndroidCrewApplication().repository), navigateToSession = {})
+        }
+    }
+}
