@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Поиск</string>
+    <string name="limit_favorites_session_message">Не удалось добавить сессию в избранное</string>
+    <string name="sessions">Сессии</string>
+    <string name="confirm_button">Да</string>
+    <string name="dismiss_button">Отмена</string>
+    <string name="exit_dialog_title">Выход из приложения</string>
+    <string name="exit_dialog_text">Вы уверены, что хотите выйти из приложения?</string>
+    <string name="favourites">Избранное</string>
+</resources>

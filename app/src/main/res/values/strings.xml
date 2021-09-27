@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">PodlodkaAndroidCrew</string>
+    <string name="unfavorite" translatable="false">unfavorite</string>
+    <string name="favorite" translatable="false">favorite</string>
+    <string name="search">Search</string>
+    <string name="limit_favorites_session_message">Couldn\'t add session to favorites</string>
+    <string name="sessions">Sessions</string>
+    <string name="confirm_button">Yes</string>
+    <string name="dismiss_button">Cancel</string>
+    <string name="exit_dialog_title">Exit application</string>
+    <string name="exit_dialog_text">Are you sure you want to exit the app?</string>
+    <string name="favourites">Favourites</string>
+</resources>
